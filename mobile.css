@@ -28,6 +28,9 @@ img{
 .media h1{
     font-size: 20px;
 }
+.social i{
+    padding: 10px;
+}
 @media(max-width:768px){
     .navbar ul li a{
         padding: 10px 30px;
@@ -41,6 +44,12 @@ img{
     }
     #flex{
         height: 400px;
+    }
+    #about{
+        height: 200px;
+    }
+    .social i{
+        padding: 20px;
     }
 }
 @media(max-width:600px){
@@ -73,7 +82,7 @@ img{
 }
 @media(max-width:420px){
     body::before{
-        height: 75%;
+        height: 83%;
     }
     header{
         font-size: 10px;
@@ -130,7 +139,7 @@ img{
         font-size: 15px;
     }
     #about{
-        height: 100px;
+        height: 130px;
     }
     header{
         height: 470px;
@@ -158,6 +167,10 @@ img{
     }
     header{
         font-size: 7px;
+    }
+    .media i{
+        padding: 15px;
+        border-top: 2px dotted white;
     }
     header p{
         font-size: 12px;
