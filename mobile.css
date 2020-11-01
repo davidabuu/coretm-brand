@@ -8,7 +8,7 @@ body::before{
 #about{
     font-size: 25px;
     line-height: 1.2;
-    height: 200px;
+    height: 150px;
 }
 
 img{
@@ -52,7 +52,7 @@ img{
     }
     #about{
         margin-top: 100px;
-        height: 300px;
+        height: 200px;
     }
     .flex-items{
         display: grid;
@@ -66,6 +66,10 @@ img{
         width: 150px;
         height: 150px;
     }
+    .social {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 @media(max-width:420px){
     header{
@@ -75,12 +79,24 @@ img{
         margin-left: 10px;
         font-size: 15px;
     }
+    #about h1{
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 20px;
+    }
     .navbar ul li a{
         padding: 10px 10px;
         font-size: 15px;
     }
+    #works h1{
+        font-size: 20px;
+    }
+    #flex h1{
+        font-size: 20px;
+    }
     #about{
-        height: 350px;
+        height: 180px;
     }
     .social{
         display: grid;
@@ -92,11 +108,26 @@ img{
     body{
         height: 100vh;
     }
+    body::before{
+        height: 80%;
+    }
+    #about h1{
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 15px;
+    }
     .navbar h1{
         margin-left: 0px;
     }
+    #works h1{
+        font-size: 20px;
+    }
+    #flex h1{
+        font-size: 20px;
+    }
     #about{
-        height: 400px;
+        height: 100px;
     }
     header{
         height: 470px;
@@ -130,11 +161,11 @@ img{
     }
     #about{
         margin-top: 100px;
-        height: 370px;
+        height: 150px;
         font-size: 15px;
     }
     #about p{
-        font-size: 20px;
+        font-size: 15px;
     }
     .flex-items{
         display: grid;
@@ -151,4 +182,22 @@ img{
    .graphics{
        padding-left: 50px;
    }
+}
+
+@media(max-height:667px){
+    body::before{
+        height: 90%;
+    }
+}
+@media(max-width:320px){
+    body::before{
+        height: 100%;
+    }
+    .navbar h1{
+        font-size: 10px;
+    }
+    .navbar ul li a{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
 }
