@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+}
+body::before{
+    width: 100%;
+    height: 70%;
+}
+#about{
+    font-size: 25px;
+    line-height: 1.2;
+    height: 200px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.sam{
+    font-size: 20px;
+}
+.social i{
+    padding: 20px;
+}
+.media i{
+    padding:5px;
+}
+.media h1{
+    font-size: 20px;
+}
+@media(max-width:768px){
+    .navbar ul li a{
+        padding: 10px 30px;
+    }
+    body::before{
+        height: 100%;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    #flex{
+        height: 400px;
+    }
+}
+@media(max-width:600px){
+    .navbar h1{
+        margin-left: 10px;
+    }
+    .navbar ul li a{
+        padding: 10px 20px;
+    }
+    #about{
+        margin-top: 100px;
+        height: 300px;
+    }
+    .flex-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    #flex{
+        height: 740px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media(max-width:420px){
+    header{
+        font-size: 10px;
+    }
+    .navbar h1{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .navbar ul li a{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    #about{
+        height: 350px;
+    }
+    .social{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+@media(max-width:380px){
+    body{
+        height: 100vh;
+    }
+    .navbar h1{
+        margin-left: 0px;
+    }
+    #about{
+        height: 400px;
+    }
+    header{
+        height: 470px;
+    }
+}
+@media(max-width:360px){
+    .navbar ul li a{
+        padding: 10px 7px;
+    }
+    header{
+        height: 450px;
+    }
+    header a{
+        margin-top: 10px;
+    }
+}
+@media(max-width:280px){
+    .navbar h1{
+        margin-left: 3px;
+        font-size: 10px;
+    }
+    .navbar ul li a{
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    header{
+        font-size: 7px;
+    }
+    header p{
+        font-size: 12px;
+    }
+    #about{
+        margin-top: 100px;
+        height: 370px;
+        font-size: 15px;
+    }
+    #about p{
+        font-size: 20px;
+    }
+    .flex-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    #flex{
+        height: 600px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+   .graphics{
+       padding-left: 50px;
+   }
+}

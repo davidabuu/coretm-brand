@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORE TM - GRAPHICS DESIGNS</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" media="screen and (max-width:1024px)" href="mobile2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar">
+        <h1>CORE TM</h1>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#contact">CONTACTS</a></li>
+            <li><a href="">EMAIL</a></li>
+        </ul>
+    </nav>
+    </div>
+    <header>
+        BRANDING
+        <span><a href="index2.html">>Next Page</a></span>
+    </header>
+    <section id="section-1">
+        <div class="flex-items">
+            <img src="branding/DOC-20190930-WA0022.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0921.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0940.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0942.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0960.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0969.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0972.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0974.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_0975.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/DSC_1020.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20170418-WA0047.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20181112-WA0014.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20190215-WA0019.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20190421-WA0037.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20190513-WA0019.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20190518-WA0020.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20190520-WA0011.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20191001-WA0016.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/IMG-20191004-WA0059.jpg" alt="">
+        </div>
+        <div class="flex-items">
+            <img src="branding/img1553920001394.png" alt="">
+        </div>
+    </section>
+    <header>
+      MUGS
+    </header>
+    <section id="section-2">
+      <div class="flex-items">
+        <img src="mugs/IMG-20200827-WA0020.jpg" alt="">
+      </div>
+      <div class="flex-items">
+        <img src="mugs/IMG-20200827-WA0035.jpg" alt="">
+      </div>
+      <div class="flex-items">
+        <img src="mugs/mug.jpg" alt="">
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="social">
+        <div>
+            <a href=""><i class="fas fa-map-marker-alt fa-3x"></i></a>
+            <div>
+              <p>
+                Abebayo street Cresent, Kubwa, Abuja.
+              </p>
+            </div>
+          </div>
+          <div>
+            <a href="">
+                <i class="fas fa-phone fa-3x"></i>
+                </a>
+            <div>
+              <p>
+                +234 816 162 7054 or +234 816 162 7054
+                <h1 class="sam">AMALI SAMUEL JOHN</h1>
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+            <h1>SOCIAL MEDIA</h1>
+
+          </div>
+      </div>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+       $('.navbar a, .btn').on('click', function (e) {
+      if (this.hash !== '') {
+        e.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top - 100,
+          },
+          800
+        );
+      }
+    });
+  </script>
+</body>
+</html>
