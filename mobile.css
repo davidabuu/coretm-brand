@@ -72,6 +72,9 @@ img{
     }
 }
 @media(max-width:420px){
+    body::before{
+        height: 75%;
+    }
     header{
         font-size: 10px;
     }
@@ -93,7 +96,7 @@ img{
         font-size: 20px;
     }
     #flex h1{
-        font-size: 20px;
+        font-size: 15px;
     }
     #about{
         height: 180px;
@@ -124,7 +127,7 @@ img{
         font-size: 20px;
     }
     #flex h1{
-        font-size: 20px;
+        font-size: 15px;
     }
     #about{
         height: 100px;
