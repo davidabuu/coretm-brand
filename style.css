@@ -104,18 +104,29 @@ header a:hover{
 #flex{
     background-color: lightseagreen;
     display: flex;
-    flex-direction: column;
-    height: 650px;
+    height: 330px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    transition: all 1s ease-in-out;
 }
-#flex h1{
-    margin-bottom: 10px;
+#flex a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
 }
-.flex-items{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 70px;
+#flex a h1:hover{
+    color: blue;
+}
+
+.img{
+    margin-left: 10px;
+}
+#flex a .brand{
+    padding-left: 50px;
+    color: #fff;
+}
+#flex a .print{
+    color: inherit;
 }
 .flex h1{
     margin-bottom: 15px;
@@ -146,8 +157,8 @@ img{
 }
 /* Footer */
 footer{
-    background-color: #333;
-    color: rgb(247, 210, 210)
+    background-color:rgb(11, 11, 19);
+    color: white;
     
 }
 .social{
