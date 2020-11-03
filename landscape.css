@@ -1,0 +1,27 @@
+@media(max-width:850px){
+    .navs{
+        height: 100vw;
+    }
+    .navs::before{
+        height: 100vw;
+    }
+}
+@media(max-width:568px){
+    .navs{
+        height: 110vw;
+    }
+    .navs::before{
+        height: 110vw;
+    }
+}
+@media(max-width:500px){
+    .navbar {
+        font-size: 15px;
+    }
+    .navbar h1{
+        font-size: 17px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+}
