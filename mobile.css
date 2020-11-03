@@ -1,9 +1,9 @@
 .navs{
-height: 100vh;
+height: 150vh;
 }
 .navs::before{
 width: 100%;
-height: 100%;
+height: 150%;
 }
 #about{
 font-size: 25px;
@@ -58,6 +58,12 @@ img{
 }
 }
 @media(max-width:600px){
+.navs{
+    height: 100vh;
+}
+.navs::before{
+    height: 100%;
+}
 .navbar h1{
     margin-left: 10px;
 }
@@ -163,6 +169,13 @@ img{
 #flex h1{
     font-size: 15px;
 }
+
+#flex{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    height: 440px;
+}
 #about{
     height: 130px;
 }
@@ -172,11 +185,12 @@ img{
 header{
     height: 470px;
 }
+#flex a .brand{
+    font-size: 15px;
+    padding-left: 0px;
+}
 }
 @media(max-width:360px){
-.navs{
-    height: 100vh;
-}
 .navbar ul li a{
     padding: 10px 7px;
 }
