@@ -191,6 +191,7 @@ header{
 }
 }
 @media(max-width:360px){
+
 .navbar ul li a{
     padding: 10px 7px;
 }
