@@ -1,249 +1,259 @@
-body{
-    height: 100vh;
+.navs{
+height: 100vh;
 }
-body::before{
-    width: 100%;
-    height: 70%;
+.navs::before{
+width: 100%;
+height: 100%;
 }
 #about{
-    font-size: 25px;
-    line-height: 1.2;
-    height: 150px;
+font-size: 25px;
+line-height: 1.2;
+height: 150px;
 }
 #flex a .brand{
-    padding-left: 60px;
+padding-left: 60px;
 }
 img{
-    width: 260px;
-    height: 260px;
-    object-fit: cover;
+width: 260px;
+height: 260px;
+object-fit: cover;
 }
 .sam{
-    font-size: 20px;
+font-size: 20px;
+}
+.social i{
+padding: 20px;
+}
+.media i{
+padding:5px;
+}
+.media h1{
+font-size: 20px;
+}
+.social i{
+padding: 10px;
+}
+@media(max-width:768px){
+.navbar ul li a{
+    padding: 10px 30px;
+}
+.navs::before{
+    height: 100%;
+}
+.navs{
+    height: 100vh;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+#flex{
+    height: 400px;
+}
+#about{
+    height: 200px;
 }
 .social i{
     padding: 20px;
 }
-.media i{
-    padding:5px;
-}
-.media h1{
-    font-size: 20px;
-}
-.social i{
-    padding: 10px;
-}
-@media(max-width:768px){
-    .navbar ul li a{
-        padding: 10px 30px;
-    }
-    body::before{
-        height: 100%;
-    }
-    img{
-        width: 250px;
-        height: 250px;
-    }
-    #flex{
-        height: 400px;
-    }
-    #about{
-        height: 200px;
-    }
-    .social i{
-        padding: 20px;
-    }
 }
 @media(max-width:600px){
-    .navbar h1{
-        margin-left: 10px;
-    }
-    .navbar ul li a{
-        padding: 10px 20px;
-    }
-    #about{
-        margin-top: 50px;
-        height: 200px;
-    }
-    #flex{
-        height: 300px;
-    }
-    img{
-        width: 200px;
-        height: 200px;
-    }
-    #flex a .brand{
-        padding-left: 35px;
-        font-size: 20px;
-    }
-    #flex a {
-        margin-left: 10px;
-        font-size: 15px;
-    }
-    .print{
-        font-size: 20px;
-    }
-    .social {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+.navbar h1{
+    margin-left: 10px;
+}
+.navbar ul li a{
+    padding: 10px 20px;
+}
+#about{
+    margin-top: 0px;
+    height: 200px;
+}
+#flex{
+    height: 300px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#flex a .brand{
+    padding-left: 35px;
+    font-size: 20px;
+}
+#flex a {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.print{
+    font-size: 20px;
+}
+.social {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
 @media(max-width:420px){
-    body::before{
-        height: 83%;
-    }
-    body{
-        height: 170vw;
-    }
-    header{
-        font-size: 10px;
-    }
-    .navbar h1{
-        margin-left: 10px;
-        font-size: 15px;
-    }
-    #about h1{
-        font-size: 20px;
-    }
-    #about p{
-        font-size: 20px;
-    }
-    img{
-        width: 150px;
-        height: 150px;
-    }
-    .navbar ul li a{
-        padding: 10px 10px;
-        font-size: 15px;
-    }
-    #works h1{
-        font-size: 20px;
-    }
-    #flex{
-        height: 250px;
-    }
-    #flex h1{
-        font-size: 15px;
-    }
-    #flex a .brand{
-        font-size: 17px;
-        padding-left: 25px;
-    }
-    #about{
-        height: 180px;
-    }
-    .social{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
+.navs::before{
+    height: 100%;
 }
-@media(max-width:380px){
-    body{
-        height: 100vh;
-    }
-    body::before{
-        height: 80%;
-    }
-    #about h1{
-        font-size: 20px;
-    }
-    #about p{
-        font-size: 15px;
-    }
-    .navbar h1{
-        margin-left: 0px;
-    }
-    #works h1{
-        font-size: 20px;
-    }
-    #flex h1{
-        font-size: 15px;
-    }
-    #about{
-        height: 130px;
-    }
-    header{
-        height: 470px;
-    }
+.navs{
+    height: 100vh;
 }
-@media(max-width:360px){
-    body{
-        height: 150vw;
-    }
-    .navbar ul li a{
-        padding: 10px 7px;
-    }
-    header{
-        height: 450px;
-    }
-    header a{
-        font-size: 12px;
-        padding: 0rem;
-        height: 20px;
-        margin-bottom: 100px;
-    }
+header{
+    font-size: 10px;
 }
-@media(max-width:280px){
-    body{
-        height: 200vw;
-    }
-    .navbar h1{
-        margin-left: 3px;
-        font-size: 10px;
-    }
-    .navbar ul li a{
-        padding: 10px 10px;
-        font-size: 10px;
-    }
-    header{
-        font-size: 7px;
-    }
-    .media i{
-        padding: 15px;
-        border-top: 2px dotted white;
-    }
-    header p{
-        font-size: 12px;
-    }
-    #about{
-        margin-top: 100px;
-        height: 150px;
-        font-size: 15px;
-    }
-    #about p{
-        font-size: 15px;
-    }
-    #flex{
-        height: 200px;
-    }
-    #flex a .brand{
-        font-size: 12px;
-        padding-left: 0px;
-    }
-    img{
-        width: 100px;
-        height: 100px;
-    }
-   .graphics{
-       padding-left: 50px;
-   }
+.navbar h1{
+    margin-left: 10px;
+    font-size: 15px;
+}
+#about h1{
+    font-size: 20px;
+}
+#about p{
+    font-size: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.navbar ul li a{
+    padding: 10px 10px;
+    font-size: 15px;
+}
+#works h1{
+    font-size: 20px;
+}
+#flex{
+    height: 250px;
+}
+#flex h1{
+    font-size: 15px;
+}
+#flex a .brand{
+    font-size: 20px;
+    padding-left: 25px;
+}
+#about{
+    height: 180px;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
-@media(max-height:667px){
-    body::before{
-        height: 90%;
-    }
+}
+@media(max-width:380px){
+.navs{
+    height: 100vh;
+}
+.navs::before{
+    height: 100%;
+}
+#about h1{
+    font-size: 20px;
+}
+#about p{
+    font-size: 15px;
+}
+.navbar h1{
+    margin-left: 0px;
+}
+#works h1{
+    font-size: 20px;
+}
+#flex h1{
+    font-size: 15px;
+}
+#about{
+    height: 130px;
+}
+#about{
+    margin-top: 0px;
+}
+header{
+    height: 470px;
+}
+}
+@media(max-width:360px){
+.navs{
+    height: 100vh;
+}
+.navbar ul li a{
+    padding: 10px 7px;
+}
+header{
+    height: 450px;
+}
+header a{
+    font-size: 15px;
+    padding: 0.2rem;
+    height: 30px;
+}
+@media(max-width:280px){
+.navs{
+height: 100vh;
+}
+.navbar h1{
+    margin-left: 3px;
+    font-size: 10px;
+}
+.navbar ul li a{
+    padding: 10px 10px;
+    font-size: 10px;
+}
+header{
+    font-size: 7px;
+}
+header p{
+    font-size: 12px;
+}
+#about{
+    margin-top: 0px;
+    height: 150px;
+    font-size: 15px;
+}
+#about p{
+    font-size: 15px;
+}
+#flex{
+    height: 200px;
+}
+#flex a .brand{
+    font-size: 12px;
+    padding-left: 0px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.graphics{
+    padding-left: 50px;
+}
 }
 @media(max-width:320px){
-    body::before{
-        height: 100%;
-    }
-    .navbar h1{
-        font-size: 10px;
-    }
-    .navbar ul li a{
-        font-size: 10px;
-        padding: 10px 10px;
-    }
+.navs::before{
+    height: 100%;
+}
+.navbar h1{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.navbar ul li a{
+    font-size: 10px;
+    padding: 10px 10px;
+}
+#flex{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    height: 400px;
+}
+#flex a .brand{
+    padding-left: 0px;
+    font-size: 15px;
+}
+img{
+    width: 140px;
+    height: 140px;
+}
+}
 }
