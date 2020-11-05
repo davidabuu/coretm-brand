@@ -87,14 +87,14 @@ header a:hover{
 }
 #about{
     text-align: center;
-    margin-top: 10px;
-    background-color: white;
+    padding-top: 10px;
+    background-color:#BCEDF6;
     height: 150px;
     position: relative;
 
 }
 #works{
-  background-color: lightseagreen;
+  background-color:#6B7FD7;
 }
 #works h1{
     text-align: center;
@@ -102,7 +102,7 @@ header a:hover{
     padding-top: 25px;
 }
 #flex{
-    background-color: lightseagreen;
+    background-color:#6B7FD7;
     display: flex;
     height: 330px;
     align-items: center;
@@ -154,6 +154,9 @@ img{
     border: 3px solid white;
     cursor: pointer;
     transition: all 1s ease-in-out;
+}
+.brand, .print{
+    margin-bottom: 10px;
 }
 /* Footer */
 footer{
