@@ -297,8 +297,8 @@ img{
 }
 }
 }
-@media(max-width:470px){
-    body{
-        font-size: 100px;
+@media(max-width:470px) and (min-width:412px){
+    .navs::before{
+        height: 120%;
     }
 }
