@@ -297,7 +297,7 @@ img{
 }
 }
 }
-@media(max-width:470px) and (min-width:412px){
+@media(max-width:470px){
     .navs::before{
         height: 120%;
     }
