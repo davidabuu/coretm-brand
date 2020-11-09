@@ -104,3 +104,11 @@
         margin-bottom: 30px;
     }
 }
+@media(max-width:450px){
+    .navs{
+        height: 100vh;
+    }
+    .navs::before{
+        height: 100%;
+    }
+}
