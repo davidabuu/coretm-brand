@@ -94,7 +94,7 @@ header a:hover{
 
 }
 #works{
-  background-color:#6B7FD7;
+  background-color:white;
 }
 #works h1{
     text-align: center;
@@ -102,7 +102,7 @@ header a:hover{
     padding-top: 25px;
 }
 #flex{
-    background-color:#6B7FD7;
+    background-color:#fff;
     display: flex;
     height: 330px;
     align-items: center;
@@ -123,10 +123,10 @@ header a:hover{
 }
 #flex a .brand{
     padding-left: 50px;
-    color: #fff;
+    color: #333;
 }
 #flex a .print{
-    color: inherit;
+    color: #333;
 }
 .flex h1{
     margin-bottom: 15px;
