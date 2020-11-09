@@ -299,6 +299,6 @@ img{
 }
 @media(max-width:470px){
     .navs::before{
-        height: 120%;
+        height: 120% !important;
     }
 }
